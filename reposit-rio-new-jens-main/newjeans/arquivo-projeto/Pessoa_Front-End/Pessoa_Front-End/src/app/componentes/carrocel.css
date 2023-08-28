@@ -1,0 +1,9 @@
+.carousel .slide img {
+    max-width: 100%;
+  }
+  
+  .carousel .slide p.legend {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
