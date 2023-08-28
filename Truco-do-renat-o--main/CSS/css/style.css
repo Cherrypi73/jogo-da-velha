@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/supershy.gif');
+    background-size: cover;
+    height: 1200px;
+}
+
+header{
+background-color: #89c97b;
+color: white;
+font-size: 15px;
+-webkit-text-stroke: 1.4px black;
+text-shadow: 3px 3px 3px  black;
+padding: 10px;
+font-family: 'Caprasimo', cursive;
+font-weight: 100;
+margin-top: -10px;
+  box-shadow: 1px 1px 1px 1px rgb(67, 67, 67);
+}
+.nav-bar{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.container{
+   
+    display:grid;
+    grid-template-columns:210px 200px;
+    justify-content: center;
+ margin-top: 40px;
+ background-size: cover; 
+    
+}
+span{
+text-align: center;
+color: white;
+ font-size: 30px;
+ -webkit-text-stroke: 1px black;
+text-shadow: 1.5px 1.5px 1.5px  black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    text-align: center;
+    color: white;
+ font-size: 30px;
+ -webkit-text-stroke: 1px black;
+text-shadow: 1.5px 1.5px 1.5px  black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team-1{
+    display:grid;
+    grid-template-rows: auto auto;
+    background-color: #eb6b6f;
+width: 200px;
+border-radius: 5px;
+justify-content: center;
+box-shadow: black 5px 5px 5px;
+}
+.team-2{
+    display:grid;
+    grid-template-rows: auto auto;
+   background-color: #91dbff;
+   width: 200px;
+   border-radius: 5px;
+   justify-content: center;
+   box-shadow: black 5px 5px 5px;
+}
+.team-button{
+    display:grid;
+    grid-template-columns:80px 50px;
+ gap: 5px;
+ 
+   
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    width: 50px;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+button:hover{
+    transition: opacity 0.3s ease;
+    filter: brightness(0.25) opacity(0.75)
+}
+.Button1{
+background-color: #fbee63;
+}
+.Button3{
+    background-color: #1a8ec7;
+
+}
+.Button2{
+    background-color: #d82d3b;
+
+}
+.Button4{
+    background-color: #46b72f;
+}
+
