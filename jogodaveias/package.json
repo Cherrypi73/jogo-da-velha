@@ -1,0 +1,23 @@
+{
+  "name": "imc-renatao",
+  "version": "1.0.0",
+  "description": "Calculando IMC do renatao",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maylla04/IMC-Renatao.git"
+  },
+  "author": "may e mari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maylla04/IMC-Renatao/issues"
+  },
+  "homepage": "https://github.com/maylla04/IMC-Renatao#readme",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
