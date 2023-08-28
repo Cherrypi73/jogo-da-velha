@@ -1,1 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    
+   
+}
 
+.icon{
+    display: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   padding: 200px;
+   height: 650px;
+}
+
+
+.button{
+    border: black solid 1px;
+ text-align: center;
+
+}
+button{
+   width: 100%;
+   
+}
