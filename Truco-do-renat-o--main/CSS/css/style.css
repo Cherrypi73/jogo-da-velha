@@ -1,28 +1,52 @@
-body{
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
-    
-   
 }
-
-.icon{
+body{
+    background: linear-gradient(to right,rgb(194, 221, 232),rgb(130, 160, 190));;
+}
+.winner{
     display: none;
 }
 .container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-   padding: 200px;
-   height: 650px;
+ display: grid;
+ width: 100%;
+ height: 100%;
+ justify-content: center;
+ justify-items: center;
+ align-items: center;
+ align-content: center;
+ grid-template-columns: repeat(3, auto);
+ padding: 50px;
 }
-
-
-.button{
-    border: black solid 1px;
- text-align: center;
-
+.col{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
 }
-button{
-   width: 100%;
-   
+.col:nth-child(1),
+.col:nth-child(2),
+ .col:nth-child(3){
+    border-top: none;
+    
+}
+.col:nth-child(1),
+.col:nth-child(4), 
+.col:nth-child(7){
+    border-left : none;
+    
+}
+.col:nth-child(7),
+.col:nth-child(8), 
+.col:nth-child(9){
+    border-bottom: none;
+    
+}
+.col:nth-child(3),.col:nth-child(6), .col:nth-child(9){
+    border-right: none;
+    
 }
