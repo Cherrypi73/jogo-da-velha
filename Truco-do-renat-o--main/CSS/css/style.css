@@ -26,27 +26,75 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    border: 2px  rgb(170, 197, 224) solid;
+    background-color: white;
 }
 .col:nth-child(1),
 .col:nth-child(2),
  .col:nth-child(3){
-    border-top: none;
+    border-top: 1px rgb(170, 197, 224) solid;
     
 }
 .col:nth-child(1),
 .col:nth-child(4), 
 .col:nth-child(7){
-    border-left : none;
+    border-left : 1px rgb(170, 197, 224) solid;
     
 }
 .col:nth-child(7),
 .col:nth-child(8), 
 .col:nth-child(9){
-    border-bottom: none;
+    border-bottom: 1px rgb(170, 197, 224) solid;
     
 }
 .col:nth-child(3),.col:nth-child(6), .col:nth-child(9){
-    border-right: none;
+    border-right: 1px rgb(170, 197, 224) solid;
     
+}
+.select-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px 25px 25px;
+    border-radius: 3px;
+    max-width: 270px;
+    width: 100%;
+    display: none;
+}
+.select-box header{
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.select-box .title{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.select-box .options{
+    display: flex;
+    width: 100%;
+}
+.options button{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 0;
+    border: none;
+    background-color:rgb(170, 197, 224) ;
+}
+.options button.playx{
+    margin: 5px;
+}
+.options button.playy{
+    margin: 5px;
+}
+.options button.playy:hover{
+    transform:scale(0.9)
+}
+.options button.playx:hover{
+    transform:scale(0.9)
 }
