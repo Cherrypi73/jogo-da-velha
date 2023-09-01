@@ -4,8 +4,8 @@
     padding: 0;
 }
 body{
-    background: linear-gradient(to right,rgb(194, 221, 232),rgb(130, 160, 190));;
-}
+    background-color: aquamarine;
+ }
 .winner{
     display: none;
 }
@@ -22,7 +22,7 @@ body{
     max-width: 270px;
     width: 100%;
     box-shadow: 2px 2px 2px 2px rgb(116, 143, 152);
-   
+   transition: all 0.3s ease;
 }
 .select-box header{
     font-size: 23px;
@@ -54,7 +54,12 @@ body{
     text-align: center;
     justify-content: center;
     margin-left: 40%;
-    
+    display: none;
+}
+.select-box.hide{
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 .container, .select-box{
  position: absolute;
@@ -132,8 +137,15 @@ position: relative;
 }
 
 .container{
-    display: none
+opacity: 0;
+   pointer-events: none;
+   transform: translate(-50%, -50%) scale(0.9);
 }
+.container.show{
+    opacity: 1;
+pointer-events:auto;
+transform: translate(-50%, -50%) scale(1); 
+   }
 .container .details span{
  
  width: 100%;
