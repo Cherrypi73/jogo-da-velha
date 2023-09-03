@@ -7,7 +7,7 @@
 }
 
 body{
-  background:#c1e4fe;
+  background:rgb(252, 211, 218);
 }
 .select-box, .container, .result-box{
   position: absolute;
@@ -54,17 +54,21 @@ body{
   outline: none;
   cursor: pointer;
   transition: all 0.3s ease;
+  box-shadow: 1px 1px 1px 1px gray;
 }
 .options button:hover,
 .btn button:hover{
   transform: scale(0.96);
-   filter:brightness(0.1);
 }
 .options button.playx{
   margin-right: 5px;
 }
 .options button.playy{
   margin-left: 5px;
+}
+.options button.playy:hover, button.playx:hover{
+  transform:scale(0.9);
+ background-color: rgb(226, 132, 147);
 }
 
 .container{
@@ -91,21 +95,21 @@ body{
 .players span{
   position: relative;
   z-index: 2;
-  color: #56baed;
-  font-size: 20px;
+  color: pink;
+  font-size: 17px;
   font-weight: 500;
-  padding: 10px 0;
+  padding: 8px 0;
   width: 100%;
-  text-align: center;
-  cursor: default;
-  user-select: none;
+  cursor: default; 
+   text-align: center;
+ user-select: none;
   transition: all 0.3 ease;
 }
 .players.active span:first-child{
   color: #fff;
 }
 .players.active span:last-child{
-  color: #56baed;
+  color: pink;
 }
 .players span:first-child{
   color: #fff;
@@ -116,7 +120,7 @@ body{
   left: 0;
   width: 50%;
   height: 100%;
-  background: #56baed;
+  background: pink;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
@@ -124,7 +128,7 @@ body{
   left: 50%;
 }
 .players.active span:first-child{
-  color: #56baed;
+  color: pink;
 }
 .players.active span:nth-child(2){
   color: #fff;
@@ -144,7 +148,7 @@ body{
   height: 90px;
   width: 90px;
   margin: 2px;
-  color: #56baed;
+  color: pink;
   font-size: 40px;
   line-height: 80px;
   text-align: center;
