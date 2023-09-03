@@ -193,10 +193,13 @@ body{
   font-weight: 500;
   padding: 8px 20px;
   border: none;
-  background: #56baed;
+  background:  pink;
   border-radius: 5px;
   color: #fff;
   outline: none;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+.btn button:hover{
+  background-color: rgb(226, 132, 147);
 }

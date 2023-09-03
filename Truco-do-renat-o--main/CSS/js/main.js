@@ -103,7 +103,7 @@ function selectWinner(){
             resultBox.classList.add("show");
             container.classList.remove("show");
         }, 700); 
-        wonText.innerHTML = `Player <p>${playsignal}</p> won the game!`; 
+        wonText.innerHTML = `Jogador <p>${playsignal}</p>ganhou o jogo!`; 
     }else{ 
         if(getIdVal(1) != "" && getIdVal(2) != "" && getIdVal(3) != "" && getIdVal(4) != "" && getIdVal(5) != "" && getIdVal(6) != "" && getIdVal(7) != "" && getIdVal(8) != "" && getIdVal(9) != ""){
             runBot = false;
@@ -112,7 +112,7 @@ function selectWinner(){
                 resultBox.classList.add("show");
                 container.classList.remove("show");
             }, 700); 
-            wonText.textContent = "Match has been drawn!"; 
+            wonText.textContent = "empate!"; 
         }
     }
 }
